@@ -9,12 +9,6 @@ enum mitosis_layers
   _FUNC,
 };
 
-enum mitosis_keycodes
-{
-  FNKEY = SAFE_RANGE,
-  SHIFT,
-};
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_BASE] = LAYOUT(
     _______, _______, _______, _______, _______,    _______, _______, _______, _______, _______,
